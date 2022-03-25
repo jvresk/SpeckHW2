@@ -70,6 +70,12 @@ h2 {
 
 }
 
+.header.header_secondary {
+    background-color: var(--color-text-primary);
+    position: initial;
+}
+
+
 .header__inner{
     width: 1300px;
     margin: 0 auto;
