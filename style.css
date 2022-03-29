@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Manrope");
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500&family=PT+Serif:wght@700&display=swap');
 
 :root {
   --font-primary: "Manrope", sans-serif;
@@ -36,8 +36,10 @@ h2 {
   font-family: var(--font-secondary);
 }
 
+/*buttons*/
+
 .button{
-    display: inline-flex;
+    display: inline-flex;  /*s obzirom da je a element, on nema display sve dok mu ga ne dodijelimo*/
     height: 48px;
     justify-content: center;
     align-items: center;
@@ -50,11 +52,11 @@ h2 {
     text-transform: uppercase;
 }
 
-.button__nav{
+.button_nav{
     width: 150px;
 }
 
-.button__secondary{
+.button_secondary{
     background-color: var(--color-primary);
     color: var(--color-bg-primary);
 }
@@ -65,7 +67,7 @@ h2 {
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 1;
+    z-index: 1; /*može se primjenjivati samo ako su definirane position:relative ili absolute*/
     padding: 32px 0;
 
 }
@@ -86,7 +88,7 @@ h2 {
 
 
 .header__logo{
-    width: 1300px;
+    width: 140px;
 }
 
 .header__nav-link{
@@ -101,7 +103,7 @@ h2 {
 }
 
 .header__nav-button:last-child{
-    margin-right: 0px;
+    margin-right: 0;
     
 }
 
